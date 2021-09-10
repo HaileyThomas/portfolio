@@ -42,3 +42,34 @@ header nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* hero style */
+#hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* links style */
+#links {
+    padding: 10px;
+    margin-block-end: 20px;
+}
+
+#links ul li {
+    display: inline;
+}
+
+#links ul li a {
+    margin: 0 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.greenBox {
+    width: 1000px;
+    margin: auto;
+    background-color: green;
+    text-align: center;
+}
