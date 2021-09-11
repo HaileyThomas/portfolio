@@ -159,3 +159,34 @@ header nav ul li a {
 }
 
 /* project styles */
+#projects {
+    padding: 10px;
+    margin-block-end: 20px;
+    overflow: auto;
+}
+
+#projects img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#projects ul li {
+    list-style-type: none;
+}
+
+#project1 {
+    display: inline-block;
+    margin: 20px;
+}
+
+#project2 {
+    display: inline-block;
+    margin: 20px;
+}
+
+#project3 {
+    display: inline-block;
+    margin: 20px;
+}
+
