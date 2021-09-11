@@ -67,9 +67,38 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* box styles */
 .greenBox {
     width: 1000px;
     margin: auto;
     background-color: green;
     text-align: center;
+}
+
+.peachBox {
+    width: 1000px;
+    margin: auto;
+    background-color: #fbcb74;
+    text-align: center;
+}
+
+/* about me styles */
+
+#aboutMe {
+    padding: 10px;
+    margin-block-end: 20px;
+    overflow: auto;
+}
+
+#aboutMe img {
+    width: 30%;
+    float: right;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#aboutMeText {
+    text-align: justify;
+    margin: 5px;
+    padding: 10px;
 }
