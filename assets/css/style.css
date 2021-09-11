@@ -67,6 +67,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+#links img {
+    width: 25px;
+}
+
 /* box styles */
 .greenBox {
     width: 1000px;
@@ -80,6 +84,20 @@ header nav ul li a {
     margin: auto;
     background-color: #fbcb74;
     text-align: center;
+}
+
+.greenBoxMini {
+    width: 497px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: green;
+}
+
+.pinkBoxMini {
+    width: 497px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: deeppink;
 }
 
 /* about me styles */
@@ -100,5 +118,22 @@ header nav ul li a {
 #aboutMeText {
     text-align: justify;
     margin: 5px;
+    padding: 10px;
+}
+
+/* skills and certifications styles */
+
+#skillsCerts {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-block-end: 20px;
+}
+
+#skills {
+    padding: 10px;
+}
+
+#certifications {
     padding: 10px;
 }
