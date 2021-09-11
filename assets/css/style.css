@@ -102,6 +102,7 @@ header nav ul li a {
     margin: auto;
     background-color: #40b93c;
     text-align: center;
+    color: #ffffff;
 }
 
 .peachBox {
@@ -109,6 +110,7 @@ header nav ul li a {
     margin: auto;
     background-color: #fbcb74;
     text-align: center;
+    color: #e88f00;
 }
 
 .greenBoxMini {
@@ -116,6 +118,7 @@ header nav ul li a {
     display: inline-block;
     vertical-align: top;
     background-color: #40b93c;
+    color: #ffffff;
 }
 
 .pinkBoxMini {
@@ -124,6 +127,7 @@ header nav ul li a {
     display: inline-block;
     vertical-align: top;
     background-color: #ef808c;
+    color: #ffffff;
 }
 
 .pinkBox {
@@ -131,6 +135,7 @@ header nav ul li a {
     margin: auto;
     background-color: #ef808c;
     text-align: center;
+    color: #ffffff;
 }
 
 
@@ -241,7 +246,6 @@ header nav ul li a {
 }
 
 #contactMe img {
-    width: 30%;
     float: left;
     margin: 10px;
     border-radius: 30px;
