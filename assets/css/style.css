@@ -18,7 +18,7 @@ header {
     z-index: 2;
     width: 100%;
     height: 50px;
-    background-color: green;
+    background-color: #40b93c;
 }
 
 header h1 {
@@ -75,7 +75,7 @@ header nav ul li a {
 .greenBox {
     width: 1000px;
     margin: auto;
-    background-color: green;
+    background-color: #40b93c;
     text-align: center;
 }
 
@@ -90,14 +90,22 @@ header nav ul li a {
     width: 497px;
     display: inline-block;
     vertical-align: top;
-    background-color: green;
+    background-color: #40b93c;
 }
 
 .pinkBoxMini {
     width: 497px;
+    height: 98px;
     display: inline-block;
     vertical-align: top;
-    background-color: deeppink;
+    background-color: #ef808c;
+}
+
+.pinkBox {
+    width: 1000px;
+    margin: auto;
+    background-color: #ef808c;
+    text-align: center;
 }
 
 /* about me styles */
@@ -134,6 +142,20 @@ header nav ul li a {
     padding: 10px;
 }
 
+#skills h3 {
+    padding: 10px;
+}
+
+#skills ul li {
+    display: inline;
+}
+
 #certifications {
     padding: 10px;
 }
+
+#certifications h3 {
+    padding: 10px;
+}
+
+/* project styles */
