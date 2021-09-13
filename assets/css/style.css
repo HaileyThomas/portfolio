@@ -5,42 +5,37 @@
 }
 
 body {
-    position: relative;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-
-
-
 /* header styles */
-
 header {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    width: 100%;
-    height: 50px;
     background-color: #40b93c;
+    padding: 5px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 header h1 {
-    float: left;
-    margin: 5px 20px;
     color: white;
+    font-weight: bold;
 }
 
 header nav {
-    float: right;
     margin: 15px 15px;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
@@ -50,36 +45,32 @@ header nav ul li a {
     text-decoration: none;
 }
 
-
-
-
-
-
 /* hero style */
-
-#hero img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#hero {
+    display: flex;
+    justify-content: center;
 }
-
-
-
-
-
 
 /* links style */
-
 #links {
     padding: 10px;
-    margin-block-end: 20px;
+    background-color: #40b93c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-block-end: 40px;
 }
 
-#links ul li {
-    display: inline;
+#links nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
-#links ul li a {
+#links nav ul li a {
     margin: 0 40px;
     font-weight: bold;
     color: white;
@@ -96,22 +87,6 @@ header nav ul li a {
 
 
 /* box styles */
-
-.greenBox {
-    width: 1000px;
-    margin: auto;
-    background-color: #40b93c;
-    text-align: center;
-    color: #ffffff;
-}
-
-.peachBox {
-    width: 1000px;
-    margin: auto;
-    background-color: #fbcb74;
-    text-align: center;
-    color: #e88f00;
-}
 
 .greenBoxMini {
     width: 497px;
@@ -148,20 +123,31 @@ header nav ul li a {
 #aboutMe {
     padding: 10px;
     margin-block-end: 20px;
-    overflow: auto;
+    background-color: #fbcb74;
+    text-align: center;
+    color: #e88f00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#aboutMe img {
-    width: 30%;
-    float: right;
+#meImg {
+    flex: 1 30%;
+    margin-right: 20px;
+}
+
+#meImg img {
+    max-width: 100%;
     margin: 10px;
     border-radius: 30px;
 }
 
-#aboutMeText {
-    text-align: justify;
-    margin: 5px;
-    padding: 10px;
+#meText {
+    flex: 12;
+}
+
+#meText h2 {
+    margin: 20px;
 }
 
 
