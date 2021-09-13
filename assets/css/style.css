@@ -56,6 +56,7 @@ header nav ul li a {
     width: 100%;
 }
 
+
 /* links style */
 #links {
     padding: 10px;
@@ -85,11 +86,6 @@ header nav ul li a {
 #links img {
     width: 25px;
 }
-
-
-
-
-
 
 
 /* about me styles */
@@ -123,9 +119,6 @@ header nav ul li a {
 #meText h2 {
     margin: 20px;
 }
-
-
-
 
 
 /* skills and certifications styles */
@@ -177,20 +170,17 @@ header nav ul li a {
 }
 
 #certifications p {
-    padding 10px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 
-
-
-
 /* project styles */
 #projects {
     padding: 10px 90px;
-    margin-block-end: 30px;
+    margin-block-end: 40px;
     background-color: #fbcb74;
     color: #e88f00;
     width: 100%;
@@ -223,16 +213,33 @@ header nav ul li a {
 }
 
 
-
-
-
-
-
 /* contact styles */
 
 #contactMe {
     padding: 10px;
-    margin-block-end: 20px;
+    background-color: #ef808c;
+    color: #ffffff;
+    margin-block-end: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contactMeText {
+    margin: 5px;
+    padding: 10px;
+    flex: 12;
+}
+
+#contactMeText h2 {
+    margin: 10px;
+}
+
+#contactImg {
+    margin: 5px;
+    padding: 10px;
+    flex: 1 30%;
 }
 
 #contactMe img {
@@ -240,7 +247,12 @@ header nav ul li a {
     border-radius: 30px;
 }
 
-#contactMeText {
-    margin: 5px;
-    padding: 10px;
+/* Footer Styles */
+footer {
+    background-color: #40b93c;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
