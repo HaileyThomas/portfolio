@@ -24,6 +24,7 @@ header {
 header h1 {
     color: white;
     font-weight: bold;
+    font-size: 40px;
 }
 
 header nav {
@@ -43,6 +44,7 @@ header nav ul li a {
     font-weight: bold;
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 /* hero style */
@@ -66,6 +68,7 @@ header nav ul li a {
     justify-content: center;
     flex-wrap: wrap;
     margin-block-end: 40px;
+    font-size: 18px;
 }
 
 #links nav ul {
@@ -118,6 +121,11 @@ header nav ul li a {
 
 #meText h2 {
     margin: 20px;
+    font-size: 30px;
+}
+
+#meText p {
+    font-size: 16px;
 }
 
 
@@ -141,6 +149,7 @@ header nav ul li a {
     padding: 10px;
     display: flex;
     justify-content: center;
+    font-size: 22px;
 }
 
 #skillIcons {
@@ -166,7 +175,8 @@ header nav ul li a {
     padding: 10px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    font-size: 22px;
 }
 
 #certifications p {
@@ -174,6 +184,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 16px;
 }
 
 
@@ -196,8 +207,12 @@ header nav ul li a {
     flex: 1;
 }
 
+#projects h3 {
+    font-size: 25px;
+}
+
 #projects img {
-    width: 250px;
+    width: 320px;
     margin: 10px;
     border-radius: 30px;
 }
@@ -210,6 +225,7 @@ header nav ul li a {
     text-decoration: none;
     color: #ef808c;
     font-weight: bold;
+    font-size: 18px;
 }
 
 
@@ -234,12 +250,18 @@ header nav ul li a {
 
 #contactMeText h2 {
     margin: 10px;
+    font-size: 30px;
+}
+
+#contactMeText p {
+    font-size: 16px;
 }
 
 #contactImg {
     margin: 5px;
     padding: 10px;
     flex: 1 30%;
+    max-width: 80%;
 }
 
 #contactMe img {
@@ -255,4 +277,5 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
 }
