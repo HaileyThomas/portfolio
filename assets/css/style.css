@@ -1,3 +1,11 @@
+:root {
+    --white: #ffffff;
+    --green: #40b93c;
+    --peach: #fbcb74;
+    --orange: #e88f00;
+    --pink: #ef808c;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,24 +13,25 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--white);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* header styles */
 header {
-    background-color: #40b93c;
+    background-color: var(--green);
     padding: 5px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
 }
 
 header h1 {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 40px;
 }
@@ -42,7 +51,7 @@ header nav ul {
 header nav ul li a {
     margin: 0 20px;
     font-weight: bold;
-    color: white;
+    color: var(--white);
     text-decoration: none;
     font-size: 20px;
 }
@@ -62,8 +71,8 @@ header nav ul li a {
 /* links style */
 #links {
     padding: 10px;
-    background-color: #40b93c;
-    color: #ffffff;
+    background-color: var(--green);
+    color: var(--white);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -82,7 +91,7 @@ header nav ul li a {
 #links nav ul li a {
     margin: 0 40px;
     font-weight: bold;
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -96,9 +105,9 @@ header nav ul li a {
 #aboutMe {
     padding: 10px;
     margin-block-end: 40px;
-    background-color: #fbcb74;
+    background-color: var(--peach);
     text-align: center;
-    color: #e88f00;
+    color: var(--orange);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -144,8 +153,8 @@ header nav ul li a {
 }
 
 #skills {
-    background-color: #40b93c;
-    color: #ffffff;
+    background-color: var(--green);
+    color: var(--white);
     flex: 1;
     margin-right: 20px;
 }
@@ -170,8 +179,8 @@ header nav ul li a {
 }
 
 #certifications {
-    background-color: #ef808c;
-    color: #ffffff;
+    background-color: var(--pink);
+    color: var(--white);
     flex: 1;
     margin-left: 20px;
 }
@@ -197,8 +206,8 @@ header nav ul li a {
 #projects {
     padding: 10px 90px;
     margin-block-end: 40px;
-    background-color: #fbcb74;
-    color: #e88f00;
+    background-color: var(--peach);
+    color: var(--orange);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -232,7 +241,7 @@ header nav ul li a {
 
 #projects a {
     text-decoration: none;
-    color: #ef808c;
+    color: var(--pink);
     font-weight: bold;
     font-size: 18px;
 }
@@ -242,8 +251,8 @@ header nav ul li a {
 
 #contactMe {
     padding: 10px;
-    background-color: #ef808c;
-    color: #ffffff;
+    background-color: var(--pink);
+    color: var(--white);
     margin-block-end: 40px;
     text-align: center;
     display: flex;
@@ -280,8 +289,8 @@ header nav ul li a {
 
 /* Footer Styles */
 footer {
-    background-color: #40b93c;
-    color: #ffffff;
+    background-color: var(--green);
+    color: var(--white);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
