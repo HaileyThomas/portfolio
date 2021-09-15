@@ -202,14 +202,17 @@ header nav ul li a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
 .projects {
     margin: 20px;
     text-align: center;
-    flex: 1;
+    flex: 1 0 0;
+}
+
+.feature {
+    flex: auto;
 }
 
 #projects h3 {
@@ -217,9 +220,10 @@ header nav ul li a {
 }
 
 #projects img {
-    width: 320px;
+    width: 100%;
     margin: 10px;
     border-radius: 30px;
+    min-width: 300px;
 }
 
 #projects ul {
