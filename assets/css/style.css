@@ -101,7 +101,6 @@ header nav ul li a {
 
 
 /* about me styles */
-
 #aboutMe {
     padding: 10px;
     margin-block-end: 40px;
@@ -144,7 +143,6 @@ header nav ul li a {
 
 
 /* skills and certifications styles */
-
 #skillsCerts {
     margin-block-end: 40px;
     display: flex;
@@ -296,4 +294,66 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 22px;
+}
+
+/* media queries */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #links {
+        font-size: 22px;
+        padding: 5px;
+    }
+
+    #aboutMeText p {
+        font-size: 20px;
+    }
+
+    #projects h3 {
+        font-size: 30px;
+    }
+
+    #projects a {
+        font-size: 25px;
+    }
+
+    #contactMe p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 575px) {
+    #links nav ul {
+        justify-content: center;
+    }
+
+    #certifications h3 {
+        text-align: center;
+    }
+
+    #contactImg {
+        justify-content: center;
+    }
 }
