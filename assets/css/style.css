@@ -54,6 +54,12 @@ header nav ul li a {
     color: var(--white);
     text-decoration: none;
     font-size: 20px;
+    padding: 5px;
+}
+
+header nav ul li a:hover {
+    background: var(--pink);
+    border-radius: 15px;
 }
 
 /* hero style */
@@ -93,6 +99,13 @@ header nav ul li a {
     font-weight: bold;
     color: var(--white);
     text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#links nav ul li a:hover {
+    background: var(--pink);
+    border-radius: 15px;
 }
 
 #links img {
@@ -138,7 +151,7 @@ header nav ul li a {
 }
 
 #meText p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -242,8 +255,14 @@ header nav ul li a {
     color: var(--pink);
     font-weight: bold;
     font-size: 18px;
+    padding: 3px;
 }
 
+#projects a:hover {
+    background: var(--orange);
+    border-radius: 15px;
+    color: var(--white);
+}
 
 /* contact styles */
 
@@ -256,6 +275,7 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 #contactMeText {
@@ -270,7 +290,26 @@ header nav ul li a {
 }
 
 #contactMeText p {
-    font-size: 16px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#contactMeText ul li {
+    list-style-type: none;
+}
+
+#contactMeText ul li a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    color: var(--white);
+}
+
+#contactMeText ul li a:hover {
+    background: var(--peach);
+    color: var(--orange);
+    border-radius: 10px;
 }
 
 #contactImg {
