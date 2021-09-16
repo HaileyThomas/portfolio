@@ -332,8 +332,15 @@ footer {
         font-size: 20px;
     }
 
+    #certifications h3 {
+        justify-content: center;
+        text-align: center;
+    }
+
     #projects h3 {
         font-size: 30px;
+        justify-content: center;
+        text-align: center;
     }
 
     #projects a {
