@@ -1,10 +1,7 @@
 # Portfolio
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Every web developer needs a place to showcase their work so this is mine :) I built this portfolio to not only showcase my work but to also showcase myself and my personality. This will help employers and collaborators see who I am and what my skills are. 
+I used the new things we have been learning in ASU Coding Bootcamp like flex box and media queries to create the layout and make it compatible on multiple screen sizes.
 ## Table of Contents
 - [Usage](#usage)
 - [Credits](#credits)
@@ -12,8 +9,8 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Usage
 View and enjoy or checkout the code on GitHub.
     ![ScreenShot](assets/images/screenshot.png)
-    [GitHub]()
-    [Link]()
+    [GitHub](https://github.com/HaileyThomas/portfolio)
+    [Link](https://haileythomas.github.io/portfolio/)
 ## Credits
 Used the info we have been learning at ASU Coding Boot Camp.
 ## License
