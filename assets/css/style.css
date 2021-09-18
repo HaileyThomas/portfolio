@@ -123,6 +123,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 #meImg {
@@ -142,16 +143,32 @@ header nav ul li a:hover {
 
 #meText h2 {
     margin: 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #meText h3 {
     margin: 10px;
-    font-size: 22px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 #meText p {
-    font-size: 18px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#meText a {
+    color: var(--orange);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#meText a:hover {
+    background: var(--orange);
+    color: var(--white);
+    border-radius: 10px;
 }
 
 
@@ -275,6 +292,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 #contactMeText {
