@@ -245,11 +245,7 @@ header nav ul li a:hover {
 .projects {
     margin: 20px;
     text-align: center;
-    flex: 1 0 0;
-}
-
-.feature {
-    flex: auto;
+    flex: 1;
 }
 
 #projects h3 {
